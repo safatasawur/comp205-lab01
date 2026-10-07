@@ -1,0 +1,10 @@
+name: lab01_dart
+description: COMP 205 Lab 1 - Dart for Java developers.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+
+dev_dependencies:
+  test: ^1.25.0
