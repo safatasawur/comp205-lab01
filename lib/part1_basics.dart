@@ -8,7 +8,7 @@
 String greet(String name, {String greeting = 'Hello', bool excited = false}) {
   // TODO(1.1): use string interpolation, for example '$greeting, $name'.
   final feeling= excited ? '!!!' : '!';
-  return '\$greeting,namefeeling ';
+  return '$greeting, $name$feeling';
 }
 
 /// Parses [input] into an age.
